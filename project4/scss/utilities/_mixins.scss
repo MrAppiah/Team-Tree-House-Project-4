@@ -1,0 +1,17 @@
+@mixin button {
+	margin-top: 15px;
+	width: 100%;
+	color: $color-col-7;
+	border: none;
+	padding: 10px 0;
+	text-transform: uppercase;
+	border-radius: 5px;
+}
+
+@mixin transition {
+	transition: 0.3s ease-in;
+	-webkit-transition: 0.3s ease-in;
+	-moz-transition: 0.3s ease-in;
+	-ms-transition: 0.3s ease-in;
+	-o-transition: 0.3s ease-in;
+}

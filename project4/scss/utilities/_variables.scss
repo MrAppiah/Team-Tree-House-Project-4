@@ -1,0 +1,23 @@
+// Font
+$font-stack-primary: "Lato", sans-serif;
+
+// Color variables
+$color-default: #51ddfc;
+$color-col-4: #7ee6fd;
+$color-col-3: #deb2ee;
+$color-col-6: #4da2bb;
+$color-col-7: #ec9fa3;
+
+// Color lighten variables
+$default-bg-light: lighten($color-default, 15%);
+
+$error-bg-light: lighten(#e4757a, 15%);
+
+$info-bg-light: lighten(#927bc1, 15%);
+
+$success-bg-light: lighten(#63cc82, 15%);
+
+$warning-bg-light: lighten(#fd7856, 15%);
+
+// Breakpoint variables
+$mq: 768px;

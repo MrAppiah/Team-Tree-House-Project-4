@@ -1,0 +1,46 @@
+/*              Buttons                          */
+/* ============================================= */
+
+.btn {
+	@include button;
+}
+
+.default {
+	background-color: #51ddfc;
+	&:hover {
+		background-color: $default-bg-light;
+		@include transition;
+	}
+}
+
+.error {
+	background-color: #e4757a;
+	&:hover {
+		background-color: $error-bg-light;
+		@include transition;
+	}
+}
+
+.info {
+	background-color: #927bc1;
+	&:hover {
+		background-color: $info-bg-light;
+		@include transition;
+	}
+}
+
+.success {
+	background-color: #63cc82;
+	&:hover {
+		background-color: $success-bg-light;
+		@include transition;
+	}
+}
+
+.warning {
+	background-color: #fd7856;
+	&:hover {
+		background-color: $warning-bg-light;
+		@include transition;
+	}
+}
